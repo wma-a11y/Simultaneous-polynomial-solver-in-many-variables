@@ -1,0 +1,314 @@
+PS C:\Users\pc\Documents\PythonCodes\SimultPolynomialSolver> & C:\Users\pc\AppData\Local\Python\pythoncore-3.14-64\python.exe c:/Users/pc/Documents/PythonCodes/SimultPolynomialSolver/MainOfSimultPoly.py
+Enter a number which will be used as a zero approximate in float numbers: 1e-3
+This program can do the following things: 
+1. Solve a polynomial equal to zero in one variable. This is the only thing that is specific to one variable.
+2. Solve a system of polynomial equations in any number of variables.
+3. Do General Polynomial Division of a polynomial by a list of polynomials, again in multiple variables.
+4. Given a list of polynomials, compute their Grobner basis and/or their reduced Grobner basis.
+5. Stop.
+Select any number from 1 to 5 to do the specified task: 4
+Enter the maximum number of variables (M): 2
+Enter the 1 polynomial. Enter 'stop' to finish. Do not enter any zero polynomial.
+1.0 x_0^2 + 1.0 x_1 + -1.0
+Enter the 2 polynomial. Enter 'stop' to finish. Do not enter any zero polynomial.
+1.0 x_0 + 1.0 x_1^2 + -1.0
+Enter the 3 polynomial. Enter 'stop' to finish. Do not enter any zero polynomial.
+stop
+Enter 1 for just a Grobner basis and 2 for a Reduced Grobner basis: 2
+Enter number of decimal places to approximate result's coeffecients to: 0
+Reduced Grobner basis is:
+-1.0 + 1.0 x_1^2 + 1.0 x_0
+1.0 x_1 + -2.0 x_1^2 + 1.0 x_1^4
+Would you like to continue this task again with these same polynomials with perhaps some additions and deletions? Enter 'Continue' to continue and 'Stop' to stop and finish this task.
+stop
+Would you like to continue with this zero approximate? 'Yes' or 'No': no
+Enter a number which will be used as a zero approximate in float numbers: 1e-5
+This program can do the following things: 
+1. Solve a polynomial equal to zero in one variable. This is the only thing that is specific to one variable.
+2. Solve a system of polynomial equations in any number of variables.
+3. Do General Polynomial Division of a polynomial by a list of polynomials, again in multiple variables.
+4. Given a list of polynomials, compute their Grobner basis and/or their reduced Grobner basis.
+5. Stop.
+Select any number from 1 to 5 to do the specified task: 4
+Enter the maximum number of variables (M): 1
+Enter the 1 polynomial. Enter 'stop' to finish. Do not enter any zero polynomial.
+1.0 x_0^2 + -1.0
+Enter the 2 polynomial. Enter 'stop' to finish. Do not enter any zero polynomial.
+1.0 x_0 + -1.0
+Enter the 3 polynomial. Enter 'stop' to finish. Do not enter any zero polynomial.
+stop
+Enter 1 for just a Grobner basis and 2 for a Reduced Grobner basis: 2
+Enter number of decimal places to approximate result's coeffecients to: 2
+Reduced Grobner basis is:
+-1.0 + 1.0 x_0
+Would you like to continue this task again with these same polynomials with perhaps some additions and deletions? Enter 'Continue' to continue and 'Stop' to stop and finish this task.
+stop
+Would you like to continue with this zero approximate? 'Yes' or 'No': yes
+This program can do the following things: 
+1. Solve a polynomial equal to zero in one variable. This is the only thing that is specific to one variable.
+2. Solve a system of polynomial equations in any number of variables.
+3. Do General Polynomial Division of a polynomial by a list of polynomials, again in multiple variables.
+4. Given a list of polynomials, compute their Grobner basis and/or their reduced Grobner basis.
+5. Stop.
+Select any number from 1 to 5 to do the specified task: 2
+Enter the maximum number of variables (M): 1
+Enter the 1 polynomial. Enter 'Stop' to finish. Do not enter any zero polynomial.
+1.0 x_0^2 + -1.0 
+Enter the 2 polynomial. Enter 'Stop' to finish. Do not enter any zero polynomial.
+1.0 x_0 + -1.0
+Enter the 3 polynomial. Enter 'Stop' to finish. Do not enter any zero polynomial.
+stop
+Solutions are: 
+(1.0,)
+Would you like to continue this task again with these same polynomials with perhaps some additions and deletions? Enter 'Continue' to continue and 'Stop' to stop and finish this task.
+stop
+Would you like to continue with this zero approximate? 'Yes' or 'No': yes
+This program can do the following things: 
+1. Solve a polynomial equal to zero in one variable. This is the only thing that is specific to one variable.
+2. Solve a system of polynomial equations in any number of variables.
+3. Do General Polynomial Division of a polynomial by a list of polynomials, again in multiple variables.
+4. Given a list of polynomials, compute their Grobner basis and/or their reduced Grobner basis.
+5. Stop.
+Select any number from 1 to 5 to do the specified task: 5
+
+PS C:\Users\pc\Documents\PythonCodes\SimultPolynomialSolver> & C:\Users\pc\AppData\Local\Python\pythoncore-3.14-64\python.exe c:/Users/pc/Documents/PythonCodes/SimultPolynomialSolver/MainOfSimultPoly.py
+Enter a number which will be used as a zero approximate in float numbers: 1e-3
+This program can do the following things: 
+1. Solve a polynomial equal to zero in one variable. This is the only thing that is specific to one variable.
+2. Solve a system of polynomial equations in any number of variables.
+3. Do General Polynomial Division of a polynomial by a list of polynomials, again in multiple variables.
+4. Given a list of polynomials, compute their Grobner basis and/or their reduced Grobner basis.
+5. Stop.
+Select any number from 1 to 5 to do the specified task: 2
+Enter the maximum number of variables (M): 2
+Enter the 1 polynomial. Enter 'Stop' to finish. Do not enter any zero polynomial.
+1.0 x_0^2 + -1.0 x_1^2
+Enter the 2 polynomial. Enter 'Stop' to finish. Do not enter any zero polynomial.
+stop
+Enter number of decimal places to approximate result to: 3
+Solutions are: 
+(-1.0, 1.0)
+(1.0, 1.0)
+Would you like to continue this task again with these same polynomials with perhaps some additions and deletions? Enter 'Continue' to continue and 'Stop' to stop and finish this task.
+stop
+Would you like to continue with this zero approximate? 'Yes' or 'No': yes
+This program can do the following things: 
+1. Solve a polynomial equal to zero in one variable. This is the only thing that is specific to one variable.
+2. Solve a system of polynomial equations in any number of variables.
+3. Do General Polynomial Division of a polynomial by a list of polynomials, again in multiple variables.
+4. Given a list of polynomials, compute their Grobner basis and/or their reduced Grobner basis.
+5. Stop.
+Select any number from 1 to 5 to do the specified task: 5
+
+PS C:\Users\pc\Documents\PythonCodes\SimultPolynomialSolver> & C:\Users\pc\AppData\Local\Python\pythoncore-3.14-64\python.exe c:/Users/pc/Documents/PythonCodes/SimultPolynomialSolver/MainOfSimultPoly.py
+Enter a number which will be used as a zero approximate in float numbers: 1e-3
+This program can do the following things: 
+1. Solve a polynomial equal to zero in one variable. This is the only thing that is specific to one variable.
+2. Solve a system of polynomial equations in any number of variables.
+3. Do General Polynomial Division of a polynomial by a list of polynomials, again in multiple variables.
+4. Given a list of polynomials, compute their Grobner basis and/or their reduced Grobner basis.
+5. Stop.
+Select any number from 1 to 5 to do the specified task: 2
+Enter the maximum number of variables (M): 1
+Enter the 1 polynomial. Enter 'Stop' to finish. Do not enter any zero polynomial.
+1.0 x_0^2 + 1.0
+Enter the 2 polynomial. Enter 'Stop' to finish. Do not enter any zero polynomial.
+stop
+Solutions are: 
+(0.9999999999999997j,)
+((2.7755575615628914e-17-1j),)
+Would you like to continue this task again with these same polynomials with perhaps some additions and deletions? Enter 'Continue' to continue and 'Stop' to stop and finish this task.
+stop
+Would you like to continue with this zero approximate? 'Yes' or 'No': 
+This program can do the following things: 
+1. Solve a polynomial equal to zero in one variable. This is the only thing that is specific to one variable.
+2. Solve a system of polynomial equations in any number of variables.
+3. Do General Polynomial Division of a polynomial by a list of polynomials, again in multiple variables.
+4. Given a list of polynomials, compute their Grobner basis and/or their reduced Grobner basis.
+5. Stop.
+Select any number from 1 to 5 to do the specified task: 1
+Enter the single variable polynomial to solve.
+1.0 x_0^2 + 1.0
+Enter number of decimal places to approximate result to: 2
+Solutions are: 
+[1j, -1j]
+Would you like to continue with this zero approximate? 'Yes' or 'No': yes
+This program can do the following things: 
+1. Solve a polynomial equal to zero in one variable. This is the only thing that is specific to one variable.
+2. Solve a system of polynomial equations in any number of variables.
+3. Do General Polynomial Division of a polynomial by a list of polynomials, again in multiple variables.
+4. Given a list of polynomials, compute their Grobner basis and/or their reduced Grobner basis.
+5. Stop.
+Select any number from 1 to 5 to do the specified task: 2
+Enter the maximum number of variables (M): 2
+Enter the 1 polynomial. Enter 'Stop' to finish. Do not enter any zero polynomial.
+1.0 x_0^2 + -1.0
+Enter the 2 polynomial. Enter 'Stop' to finish. Do not enter any zero polynomial.
+1.0 x_0 + 1.0 x_1 + -1.0
+Enter the 3 polynomial. Enter 'Stop' to finish. Do not enter any zero polynomial.
+1.0 x_0 + -1.0 x_1
+Enter the 4 polynomial. Enter 'Stop' to finish. Do not enter any zero polynomial.
+stop
+Check the result of said Grobner basis calculation below and verify.
+Info: if the constant polynomial that appears has magnitude that is just above tolerance, then it is likely there is a spurious constant. Here, choose a slightly bigger tolerance and try again.
+Info: if however the constant is far larger than tolerance, like greater than 1, then it is likely that the system has no solution.
+Grobner basis that was computed. It will be output in dictionary form:
+{(2, 0): (1+0j), (0, 0): (-1+0j)}
+{(1, 0): (1+0j), (0, 1): (1+0j), (0, 0): (-1+0j)}
+{(1, 0): (1+0j), (0, 1): (-1+0j)}
+{(0, 2): (1-0j), (0, 1): (-2+0j)}
+{(0, 1): (-1+0j), (0, 0): (-1+0j)}
+{(0, 0): (-3+0j)}
+PS C:\Users\pc\Documents\PythonCodes\SimultPolynomialSolver> & C:\Users\pc\AppData\Local\Python\pythoncore-3.14-64\python.exe c:/Users/pc/Documents/PythonCodes/SimultPolynomialSolver/MainOfSimultPoly.py
+Enter a number which will be used as a zero approximate in float numbers: 1e-3
+This program can do the following things: 
+1. Solve a polynomial equal to zero in one variable. This is the only thing that is specific to one variable.
+2. Solve a system of polynomial equations in any number of variables.
+3. Do General Polynomial Division of a polynomial by a list of polynomials, again in multiple variables.
+4. Given a list of polynomials, compute their Grobner basis and/or their reduced Grobner basis.
+5. Stop.
+Select any number from 1 to 5 to do the specified task: 2
+Enter the maximum number of variables (M): 3
+Enter the 1 polynomial. Enter 'Stop' to finish. Do not enter any zero polynomial.
+1.0 x_0^2 + 1.0 x_1 + 1.0 x_2 + -1.0 
+Enter the 2 polynomial. Enter 'Stop' to finish. Do not enter any zero polynomial.
+1.0 x_0 + 1.0 x_1^2 + 1.0 x_2 + -1.0
+Enter the 3 polynomial. Enter 'Stop' to finish. Do not enter any zero polynomial.
+1.0 x_0 + 1.0 x_1 + 1.0 x_2^2 + -1.0
+Enter the 4 polynomial. Enter 'Stop' to finish. Do not enter any zero polynomial.
+stop
+Enter number of decimal places to approximate result to: 2
+Solutions are: 
+(0.0, 1.0, 0.0)
+(0.41, 0.41, 0.41)
+(-2.41, -2.41, -2.41)
+(1.0, 0.0, 0.0)
+(0.0, 0.0, 1.0)
+Would you like to continue this task again with these same polynomials with perhaps some additions and deletions? Enter 'Continue' to continue and 'Stop' to stop and finish this task.
+stop
+Would you like to continue with this zero approximate? 'Yes' or 'No': yes
+This program can do the following things: 
+1. Solve a polynomial equal to zero in one variable. This is the only thing that is specific to one variable.
+2. Solve a system of polynomial equations in any number of variables.
+3. Do General Polynomial Division of a polynomial by a list of polynomials, again in multiple variables.
+4. Given a list of polynomials, compute their Grobner basis and/or their reduced Grobner basis.
+5. Stop.
+Select any number from 1 to 5 to do the specified task: 5
+
+PS C:\Users\pc\Documents\PythonCodes\SimultPolynomialSolver> & C:\Users\pc\AppData\Local\Python\pythoncore-3.14-64\python.exe c:/Users/pc/Documents/PythonCodes/SimultPolynomialSolver/MainOfSimultPoly.py
+Enter a number which will be used as a zero approximate in float numbers: 1e-4
+This program can do the following things: 
+1. Solve a polynomial equal to zero in one variable. This is the only thing that is specific to one variable.
+2. Solve a system of polynomial equations in any number of variables.
+3. Do General Polynomial Division of a polynomial by a list of polynomials, again in multiple variables.
+4. Given a list of polynomials, compute their Grobner basis and/or their reduced Grobner basis.
+5. Stop.
+Select any number from 1 to 5 to do the specified task: 2
+Enter the maximum number of variables (M): 2
+Enter the 1 polynomial. Enter 'Stop' to finish. Do not enter any zero polynomial.
+1.0 x_0^2 + 1.0 x_1^2 + -1.0
+Enter the 2 polynomial. Enter 'Stop' to finish. Do not enter any zero polynomial.
+1.0 x_1 + -1.0 x_0^2
+Enter the 3 polynomial. Enter 'Stop' to finish. Do not enter any zero polynomial.
+stop
+Enter number of decimal places to approximate result to: 3
+Solutions are: 
+(-0.786, 0.618)
+(-1.272j, -1.618)
+(1.272j, -1.618)
+(0.786, 0.618)
+Would you like to continue this task again with these same polynomials with perhaps some additions and deletions? Enter 'Continue' to continue and 'Stop' to stop and finish this task.
+stop
+Would you like to continue with this zero approximate? 'Yes' or 'No': yes
+This program can do the following things: 
+1. Solve a polynomial equal to zero in one variable. This is the only thing that is specific to one variable.
+2. Solve a system of polynomial equations in any number of variables.
+3. Do General Polynomial Division of a polynomial by a list of polynomials, again in multiple variables.
+4. Given a list of polynomials, compute their Grobner basis and/or their reduced Grobner basis.
+5. Stop.
+Select any number from 1 to 5 to do the specified task: 2
+Enter the maximum number of variables (M): 2
+Enter the 1 polynomial. Enter 'Stop' to finish. Do not enter any zero polynomial.
+1.0 x_0^2 + -2.0 x_0 x_1 + 1.0 x_1^2
+Enter the 2 polynomial. Enter 'Stop' to finish. Do not enter any zero polynomial.
+stop
+The 1 elimination ideal is 0. Thus, enter a value for x_1: 1.0
+Enter number of decimal places to approximate result to: 2
+Solutions are: 
+(1.0, 1.0)
+Would you like to continue this task again with these same polynomials with perhaps some additions and deletions? Enter 'Continue' to continue and 'Stop' to stop and finish this task.
+stop
+Would you like to continue with this zero approximate? 'Yes' or 'No': yes
+This program can do the following things: 
+1. Solve a polynomial equal to zero in one variable. This is the only thing that is specific to one variable.
+2. Solve a system of polynomial equations in any number of variables.
+3. Do General Polynomial Division of a polynomial by a list of polynomials, again in multiple variables.
+4. Given a list of polynomials, compute their Grobner basis and/or their reduced Grobner basis.
+5. Stop.
+Select any number from 1 to 5 to do the specified task: 5
+
+Windows PowerShell
+Copyright (C) Microsoft Corporation. All rights reserved.
+Try the new cross-platform PowerShell https://aka.ms/pscore6
+PS C:\Users\pc> & C:\Users\pc\AppData\Local\Python\pythoncore-3.14-64\python.exe c:/Users/pc/Documents/PythonCodes/SimultPolynomialSolver/MainOfSimultPoly.py
+Enter a number which will be used as a zero approximate in float numbers: 1e-3
+This program can do the following things:
+1. Solve a polynomial equal to zero in one variable. This is the only thing that is specific to one variable.
+2. Solve a system of polynomial equations in any number of variables.
+3. Do General Polynomial Division of a polynomial by a list of polynomials, again in multiple variables.
+4. Given a list of polynomials, compute their Grobner basis and/or their reduced Grobner basis.
+5. Stop.
+Select any number from 1 to 5 to do the specified task: 3
+Enter the maximum number of variables (M): 2
+Enter the dividend polynomial.
+1.0 x_0^2 x_1 + 1.0 x_0 x_1^2 + 1.0 x_1^2
+Entering the list of divisor polynomials. Do not enter any zero polynomial.
+Enter the 1 divisor polynomial. Enter 'Stop' to stop finish.
+1.0 x_0 x_1 + -1.0
+Enter the 2 divisor polynomial. Enter 'Stop' to stop finish.
+1.0 x_1^2 + -1.0
+Enter the 3 divisor polynomial. Enter 'Stop' to stop finish.
+stop
+Enter number of decimal places to approximate result's coefficients to: 3
+Quotients are:
+1.0 x_1 + 1.0 x_0
+1.0
+, and Remainder is:
+1.0 + 1.0 x_1 + 1.0 x_0
+Would you like to continue this task again with this dividend? Answer 'Yes' or 'No'.
+no
+Would you like to continue this task again with these divisors? Answer 'Yes' or 'No'.
+no
+Would you like to continue with this zero approximate? 'Yes' or 'No': yes
+This program can do the following things:
+1. Solve a polynomial equal to zero in one variable. This is the only thing that is specific to one variable.
+2. Solve a system of polynomial equations in any number of variables.
+3. Do General Polynomial Division of a polynomial by a list of polynomials, again in multiple variables.
+4. Given a list of polynomials, compute their Grobner basis and/or their reduced Grobner basis.
+5. Stop.
+Select any number from 1 to 5 to do the specified task: 3
+Enter the maximum number of variables (M): 1
+Enter the dividend polynomial.
+1.0 x_0^2 + -1.0
+Entering the list of divisor polynomials. Do not enter any zero polynomial.
+Enter the 1 divisor polynomial. Enter 'Stop' to stop finish.
+1.0 x_0 + -1.0
+Enter the 2 divisor polynomial. Enter 'Stop' to stop finish.
+stop
+Enter number of decimal places to approximate result's coefficients to: 2
+Quotients are:
+1.0 + 1.0 x_0
+, and Remainder is:
+0.0
+Would you like to continue this task again with this dividend? Answer 'Yes' or 'No'.
+no
+Would you like to continue this task again with these divisors? Answer 'Yes' or 'No'.
+no
+Would you like to continue with this zero approximate? 'Yes' or 'No': yes
+This program can do the following things:
+1. Solve a polynomial equal to zero in one variable. This is the only thing that is specific to one variable.
+2. Solve a system of polynomial equations in any number of variables.
+3. Do General Polynomial Division of a polynomial by a list of polynomials, again in multiple variables.
+4. Given a list of polynomials, compute their Grobner basis and/or their reduced Grobner basis.
+5. Stop.
+Select any number from 1 to 5 to do the specified task: 5
